@@ -1,2 +1,18 @@
 node_modules/
 dist/
+
+# typescript
+.types
+.types-*
+
+# yarn
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+.wrangler
+.dev.vars
